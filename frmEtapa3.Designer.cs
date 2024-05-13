@@ -85,6 +85,7 @@
             this.Controls.Add(this.btnAuto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmEtapa3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario etapa 3";
             this.Load += new System.EventHandler(this.frmEtapa3_Load);
             this.ResumeLayout(false);
